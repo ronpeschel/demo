@@ -8,6 +8,7 @@ const UserName = "Xavier"
   return (
     <div className="App">
       <HelloWorld age={UserAge} name={UserName}/>
+      Hello There!
     </div>
   );
 }
