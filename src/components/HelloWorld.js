@@ -7,17 +7,12 @@ function HelloWorld({age, name}) {
     <div>
         <div>
         
-        <h1>Hello, {name}!
-            </h1>   
+        <h1>
+          Hello, {name}!
+        </h1>   
            today you are {age} years old
            there is more...
-        </div>
-
-     
-            
-        
-         
-         
+        </div>   
     </div>
    
   )
