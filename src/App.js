@@ -1,4 +1,5 @@
 import HelloWorld from "./components/HelloWorld";
+import Button from "./components/button";
 
 function App() {
 
@@ -9,6 +10,7 @@ const UserName = "Xavier"
     <div className="App">
       <HelloWorld age={UserAge} name={UserName}/>
       This can be seen after the Update!
+      <Button></Button>
     </div>
   );
 }
